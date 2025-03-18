@@ -13,11 +13,17 @@ Buon lavoro e buon divertimento! */
 
 for (let i = 1; i <= 100; i++)
     
-// Creo if per i divisibili per 3 "Fizz"
+// Creo if per i multipli di 3 "Fizz"
 
 if(i % 3 == 0){
     console.log(`${i} Fizz`);
 } 
+
+// Creo else if per i multipli di 5 "Buzz"
+
+else if(i % 5 == 0){
+    console.log(`${i} Buzz`);
+}
 
 else {
     console.log(i)
